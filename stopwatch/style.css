@@ -51,8 +51,18 @@ ul {
 
 ul > li > button {
   outline: none;
+  border: solid 2px black;
   border-radius: 15px;
+  background: black;
+  color: white;
   width: 5rem;
   height: 3rem;
+}
+
+ul > li > button:hover {
+  background: white;
+  color: black;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
 }
 /*# sourceMappingURL=style.css.map */
